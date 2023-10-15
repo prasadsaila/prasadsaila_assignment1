@@ -1,0 +1,23 @@
+<html>
+    <head>
+     <title>ARRAY DECENDING SORT</title>
+    </head>
+    <body>
+        <script>
+
+            let input = prompt("Enter the list of numbers separated by commas:");
+             let array = input.split(",");
+
+             console.log(array);
+
+            const sortedArray = array.sort((a, b) => b - a);
+
+            console.log(sortedArray);
+
+            alert(sortedArray);
+            document.write("The sorted array in decending order is  :")
+            document.write(sortedArray)
+        </script>
+    </body>
+</html>
+
